@@ -14,12 +14,15 @@ This library provides the ability to authenticate to Google APIs using various m
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/google-auth-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/google-auth-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/google-auth-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/google-auth-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/google-auth/badges/version.svg)](https://anaconda.org/conda-forge/google-auth)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/google-auth/badges/downloads.svg)](https://anaconda.org/conda-forge/google-auth)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-google--auth-green.svg)](https://anaconda.org/conda-forge/google-auth) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/google-auth.svg)](https://anaconda.org/conda-forge/google-auth) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/google-auth.svg)](https://anaconda.org/conda-forge/google-auth) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/google-auth.svg)](https://anaconda.org/conda-forge/google-auth) |
 
 Installing google-auth
 ======================
