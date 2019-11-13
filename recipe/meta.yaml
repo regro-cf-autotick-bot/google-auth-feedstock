@@ -1,6 +1,6 @@
 {% set name = "google-auth" %}
-{% set version = "1.6.3" %}
-{% set sha256 = "0f7c6a64927d34c1a474da92cfc59e552a5d3b940d3266606c6a28b72888b9e4" %}
+{% set version = "1.7.0" %}
+{% set sha256 = "8b67e34a07055b9785948ff9d3e044f93be9019f4f69711b04450087ae150817" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -25,9 +25,9 @@ requirements:
   run:
     - python
     - pyasn1-modules >=0.2.1
-    - rsa >=3.1.4,<4dev
-    - six >=1.9.0,<2dev
-    - cachetools >=2.0.0,<3dev
+    - rsa >=3.1.4,<4.1
+    - six >=1.9.0
+    - cachetools >=2.0.0,<3.2
 
 test:
   imports:
