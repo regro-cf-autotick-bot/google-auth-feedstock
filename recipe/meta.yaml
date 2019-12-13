@@ -1,6 +1,6 @@
 {% set name = "google-auth" %}
-{% set version = "1.7.1" %}
-{% set sha256 = "baf1b3f8b29a5f96f66753ad848473699322b63f4d68964e510554b12d002443" %}
+{% set version = "1.8.2" %}
+{% set sha256 = "bf45ce767ac45704372a6d3677b4a036594a935f4e460e58c7accc3c36925f06" %}
 
 package:
   name: {{ name|lower }}
@@ -24,17 +24,18 @@ requirements:
 
   run:
     - python
+    - cachetools >=2.0.0,<3.2
     - pyasn1-modules >=0.2.1
     - rsa >=3.1.4,<4.1
+    - setuptools >=40.3.0
     - six >=1.9.0
-    - cachetools >=2.0.0,<3.2
 
 test:
   imports:
     - google.auth
 
 about:
-  home: https://github.com/GoogleCloudPlatform/google-auth-library-python
+  home: https://github.com/googleapis/google-auth-library-python
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
@@ -42,7 +43,7 @@ about:
   description: This library provides the ability to authenticate to Google APIs using various
     methods. It also provides integration with several HTTP libraries.
   doc_url: https://google-auth.readthedocs.io/en/latest/
-  dev_url: https://github.com/GoogleCloudPlatform/google-auth-library-python
+  dev_url: https://github.com/googleapis/google-auth-library-python
 
 extra:
   recipe-maintainers:
