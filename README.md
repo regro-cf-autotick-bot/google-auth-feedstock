@@ -117,6 +117,7 @@ Feedstock Maintainers
 =====================
 
 * [@jreback](https://github.com/jreback/)
+* [@leahecole](https://github.com/leahecole/)
 * [@parthea](https://github.com/parthea/)
 * [@theacodes](https://github.com/theacodes/)
 * [@tswast](https://github.com/tswast/)
