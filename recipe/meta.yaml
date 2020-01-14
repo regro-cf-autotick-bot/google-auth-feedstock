@@ -47,7 +47,8 @@ about:
 
 extra:
   recipe-maintainers:
-    - parthea
     - jreback
-    - tswast
+    - leahecole
+    - parthea
     - theacodes
+    - tswast
