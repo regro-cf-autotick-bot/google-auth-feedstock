@@ -31,8 +31,13 @@ requirements:
     - six >=1.9.0
 
 test:
+  requires:
+    - python
+    - pip
   imports:
     - google.auth
+  commands:
+    - python -m pip check
 
 about:
   home: https://github.com/googleapis/google-auth-library-python
