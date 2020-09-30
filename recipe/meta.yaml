@@ -1,6 +1,6 @@
 {% set name = "google-auth" %}
-{% set version = "1.21.3" %}
-{% set sha256 = "31941bf019fb242c04d0de32845da10180788bfddb0de87d78c4bdf55555dda1" %}
+{% set version = "1.22.0" %}
+{% set sha256 = "a73e6fb6d232ed1293ef9a5301e6f8aada7880d19c65d7f63e130dc50ec05593" %}
 
 package:
   name: {{ name|lower }}
@@ -23,12 +23,13 @@ requirements:
     - pip
 
   run:
-    - python >=3
+    - python >=3.6
     - cachetools >=2.0.0,<5.0
     - pyasn1-modules >=0.2.1
     - rsa >=3.1.4,<5
     - setuptools >=40.3.0
     - six >=1.9.0
+    - aiohttp >=3.6.2,<4.0.0dev
 
 test:
   requires:
