@@ -1,6 +1,6 @@
 {% set name = "google-auth" %}
-{% set version = "1.25.0" %}
-{% set sha256 = "514e39f4190ca972200ba33876da5a8857c5665f2b4ccc36c8b8ee21228aae80" %}
+{% set version = "1.26.1" %}
+{% set sha256 = "1b461d079b5650efe492a7814e95c536ffa9e7a96e39a6d16189c1604f18554f" %}
 
 package:
   name: {{ name|lower }}
@@ -30,6 +30,7 @@ requirements:
     - setuptools >=40.3.0
     - six >=1.9.0
     - aiohttp >=3.6.2,<4.0.0dev
+    - pyopenssl >=20.0.0
 
 test:
   requires:
